@@ -1,0 +1,13 @@
+{
+  "name": "claude-ollama-proxy",
+  "version": "1.0.0",
+  "description": "Proxy para conectar Claude Code con Ollama local",
+  "main": "CLAUDE-PROXY-V2.cjs",
+  "scripts": {
+    "start": "node CLAUDE-PROXY-V2.cjs",
+    "test": "curl http://localhost:4000/health"
+  },
+  "keywords": ["claude", "ollama", "proxy", "local-ai"],
+  "author": "",
+  "license": "MIT"
+}
